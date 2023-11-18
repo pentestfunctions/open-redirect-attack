@@ -49,3 +49,4 @@ This tool is for educational and ethical testing purposes only. Unauthorized tes
 - Try a double-URL and triple-URL encoded version of payloads
 - If extension checked, try ?image_url={payload}/.jpg
 - Extract target domain and see if it can redirect to any other TLD using the same domain (If domain.com try redirect to domain.co.uk)
+- Add in the option to auto replace 'whitelisted.com' with a whitelisted domain automatically from payloads.txt
