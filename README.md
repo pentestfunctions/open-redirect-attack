@@ -18,6 +18,11 @@ To use this script, run it with Python and input the target URL when prompted:
 python openredirect.py
 ```
 
+Put in the full URL to the area to test:
+```bash
+What is the target URL?: https://google.com/admin/panel.aspx?id=1&redirect=
+```
+
 ## 📚 How It Works
 
 1. The user inputs the target URL.
@@ -50,3 +55,4 @@ This tool is for educational and ethical testing purposes only. Unauthorized tes
 - If extension checked, try ?image_url={payload}/.jpg
 - Extract target domain and see if it can redirect to any other TLD using the same domain (If domain.com try redirect to domain.co.uk)
 - Add in the option to auto replace 'whitelisted.com' with a whitelisted domain automatically from payloads.txt
+- Dynamic selection of the area to fuzz for the redirect, right now it requires it to be at the end of the URL
