@@ -23,6 +23,11 @@ Put in the full URL to the area to test:
 What is the target URL?: https://google.com/admin/panel.aspx?id=1&redirect=
 ```
 
+<div align="center">
+  <img src="static/redi.PNG" alt="Red Image">
+</div>
+
+
 ## 📚 How It Works
 
 1. The user inputs the target URL.
