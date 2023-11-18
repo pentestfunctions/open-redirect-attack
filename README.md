@@ -43,3 +43,9 @@ This tool is for educational and ethical testing purposes only. Unauthorized tes
 - ![Security](https://img.shields.io/badge/security-penetration%20testing-brightgreen.svg)
 - ![License](https://img.shields.io/badge/license-MIT-green.svg)
 
+
+## Ideas to add:
+- Add in double parameters (detect parameter being tested and double it)
+- Try a double-URL and triple-URL encoded version of payloads
+- If extension checked, try ?image_url={payload}/.jpg
+- Extract target domain and see if it can redirect to any other TLD using the same domain (If domain.com try redirect to domain.co.uk)
